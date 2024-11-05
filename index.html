@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app">
+      <!-- Big card -->
+      <div class="profile-card-one">
+        <div class="time-options">
+          <button data-period="daily">Daily</button>
+          <button data-period="weekly" class="active">Weekly</button>
+          <button data-period="monthly">Monthly</button>
+        </div>
+      </div>
+      <div class="profile-card-two">
+        <img
+          src="images/image-jeremy.png"
+          alt="Profile Picture"
+          class="profile-pic" />
+        <h2>Report for</h2>
+        <h1>Jeremy Robson</h1>
+      </div>
+
+      <!-- Small cards -->
+      <div class="activity-cards">
+        <div class="activity-card work" id="work">
+          <div class="card-header">
+            <span>Work</span>
+            <div class="svg-container">
+              <img class="dots" src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <div class="card-main">
+            <h1 class="hours"></h1>
+            <p class="previous"></p>
+          </div>
+        </div>
+
+        <div class="activity-card play" id="play">
+          <div class="card-header">
+            <span>Play</span>
+            <div class="svg-container">
+              <img class="dots" src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <div class="card-main">
+            <h1 class="hours"></h1>
+            <p class="previous"></p>
+          </div>
+        </div>
+
+        <div class="activity-card study" id="study">
+          <div class="card-header">
+            <span>Study</span>
+            <div class="svg-container">
+              <img class="dots" src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <div class="card-main">
+            <h1 class="hours"></h1>
+            <p class="previous"></p>
+          </div>
+        </div>
+
+        <div class="activity-card exercise" id="exercise">
+          <div class="card-header">
+            <span>Exercise</span>
+            <div class="svg-container">
+              <img class="dots" src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <div class="card-main">
+            <h1 class="hours"></h1>
+            <p class="previous"></p>
+          </div>
+        </div>
+
+        <div class="activity-card social" id="social">
+          <div class="card-header">
+            <span>Social</span>
+            <div class="svg-container">
+              <img class="dots" src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <div class="card-main">
+            <h1 class="hours"></h1>
+            <p class="previous"></p>
+          </div>
+        </div>
+
+        <div class="activity-card self-care" id="self-care">
+          <div class="card-header">
+            <span>Self-Care</span>
+            <div class="svg-container">
+              <img class="dots" src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <div class="card-main">
+            <h1 class="hours"></h1>
+            <p class="previous"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
